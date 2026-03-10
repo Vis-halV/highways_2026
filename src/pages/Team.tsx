@@ -20,43 +20,114 @@ interface TeamGroup {
 
 const teamData: TeamGroup[] = [
     {
-        id: 'council',
-        name: 'STUDENT COUNCIL',
-        members: [
-            { name: "Pranesh", role: "President", spirit: "The Visionary", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Pranesh", socials: { instagram: "#" } },
-            { name: "Sowmiya", role: "Vice President", spirit: "The Strategist", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sowmiya", socials: { instagram: "#" } },
-            { name: "Kishore", role: "General Secretary", spirit: "The Backbone", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Kishore", socials: { linkedin: "#" } },
-            { name: "Harini", role: "Joint Secretary", spirit: "The Catalyst", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Harini" },
-            { name: "Aravind", role: "Treasurer", spirit: "The Guardian", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Aravind" }
+        "id": "marketing",
+        "name": "MARKETING & SALES",
+        "members": [
+            { "name": "ARIVUNITHI R", "role": "Lead", "spirit": "The Visionary", "image": "/members/Arivunithi R  - ARIVUNITHI R CSE.jpg" },
+            { "name": "Sunil kumar v", "role": "Member", "spirit": "The Strategist", "image": "/members/IMG-20260211-WA0027 - SUNIL KUMAR V CVE.jpg" },
+            { "name": "M.logeshwaran", "role": "Member", "spirit": "The Architect", "image": "/members/IMG_20250926_234941_345 - LOGESHWARAN M ECE.webp" },
+            { "name": "Santhoshkumar C", "role": "Member", "spirit": "The Catalyst", "image": "/members/IMG_20251114_221105 - SANTHOSHKUMAR C EEE.jpg" },
+            { "name": "SAISUNDAR S", "role": "Member", "spirit": "The Creative", "image": "/members/IMG-20260220-WA0012 - SAISUNDAR S EEE.jpg" },
+            { "name": "NARAEN KARTICK A", "role": "Member", "spirit": "The Engine", "image": "/members/Naraen Kartick-Sublead_Marketing - NARAEN KARTICK A CVE.jpg" },
+            { "name": "C Dhinesh", "role": "Member", "spirit": "The Pulse", "image": "/members/Dhinesh-Member_Marketing - DHINESH C CSE.jpg" },
+            { "name": "Yuvakannan D", "role": "Member", "spirit": "The Guardian", "image": "/members/20250925_213406 - YUVAKANNAN D CSE.jpg" },
+            { "name": "RB YUVAN", "role": "Member", "spirit": "The Navigator", "image": "/members/RB Yuvan-Member_marketing and sales - RB YUVAN ECE.jpg" },
+            { "name": "Veeraiah V", "role": "Member", "spirit": "The Maven", "image": "/members/VEERAIAH V - Marketing and sales (1) - VEERAIAH V CHEM.jpg" },
+            { "name": "Madhan Balaji A", "role": "Member", "spirit": "The Craftsman", "image": "/members/Madhan-marketing-member - 026 MADHAN BALAJI A ME.jpg" },
+            { "name": "Dayaalan K T", "role": "Member", "spirit": "The Pioneer", "image": "/members/Dayaalan K T-Marketing_Member - DAYAALAN K T CSE.jpg" },
+            { "name": "Sucharitha Kapuluru", "role": "Member", "spirit": "The Trailblazer", "image": "/members/IMG-20260115-WA0030(2) - SUCHARITHA KAPULURU AI&DS.jpg" },
+            { "name": "Roshan M", "role": "Member", "spirit": "The Alchemist", "image": "/members/Roshan M - Member_Marketing - 116 ROSHAN M ECE.JPG" },
+            { "name": "VASANTH K N", "role": "Member", "spirit": "The Sentinel", "image": "/members/VASANTH K N - MEMBER - MARKETING AND SALESs - VASANTH K N AI&DS.jpg" },
+            { "name": "AKSHAY V", "role": "Member", "spirit": "The Vanguard", "image": "/members/AKSHAY_V_SUBLEAD_MARKETTING_TEAM - 005 AKSHAY V MEC.JPG" }
         ]
     },
     {
-        id: 'web',
-        name: 'WEB ARCHITECTS',
-        members: [
-            { name: "Bala Krishnan", role: "Lead Architect", spirit: "The Visionary", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Bala", socials: { linkedin: "#" } },
-            { name: "Deepak", role: "Frontend Lead", spirit: "The Stylist", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Deepak" },
-            { name: "Shruthi", role: "UI/UX Designer", spirit: "The Artist", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Shruthi" },
-            { name: "Dinesh", role: "Backend Developer", spirit: "The Engine", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Dinesh" },
-            { name: "Siddarth", role: "Interface Dev", spirit: "The Bridge", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sid" },
-            { name: "Ananya", role: "Logic Architect", spirit: "The Flow", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ananya" },
-            { name: "Vikram", role: "System Designer", spirit: "The Core", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Vikram" }
+        "id": "design",
+        "name": "VISUAL DESIGN",
+        "members": [
+            { "name": "ASHISH S", "role": "Lead", "spirit": "The Luminary", "image": "/members/IMG_9669 (1) - ASHISH S CSE.jpg" },
+            { "name": "Yogendra SK", "role": "Member", "spirit": "The Maestro", "image": "/members/IMG_20250329_175034 - 056 YOGENDRA S K ME.jpg" },
+            { "name": "Thirunesh S", "role": "Member", "spirit": "The Artisan", "image": "/members/photo - THIRUNESH S Mech & Auto Engg.png" },
+            { "name": "Harish K", "role": "Member", "spirit": "The Virtuoso", "image": "/members/Harish K - Member - Design - HARISH K AI&DS.png" },
+            { "name": "Yeseswini.S", "role": "Member", "spirit": "The Pathfinder", "image": "/members/yeseswini-member_design - YESESWINI S AI&DS.jpg" }
         ]
     },
     {
-        id: 'design',
-        name: 'VISUAL DESIGN',
-        members: [
-            { name: "Rahul", role: "Creative Director", spirit: "The Dreamer", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Rahul" },
-            { name: "Priya", role: "Head of Graphics", spirit: "The Painter", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya" }
+        "id": "events",
+        "name": "EVENT PLANNING",
+        "members": [
+            { "name": "ASHWIN R", "role": "Lead", "spirit": "The Envisioner", "image": "/members/Ashwin 1 - ASHWIN R ECE.jpg" },
+            { "name": "Madhav. Ba", "role": "Member", "spirit": "The Conductor", "image": "/members/17039 - MADHAV BA Mech & Auto Engg.jpg" },
+            { "name": "Pritika Rajesh Kannan", "role": "Member", "spirit": "The Spark", "image": "/members/Pritika- Member-Event planning and coordination - PRITIKA RAJESH KANNAN ECE.jpg" },
+            { "name": "Vethavarna V", "role": "Member", "spirit": "The Keystone", "image": "/members/20260301_191701 - VETHAVARNA V ECE.jpg" },
+            { "name": "Suraj G", "role": "Member", "spirit": "The Anchor", "image": "/members/passport size photo  - SURAJ G IT.jpg" },
+            { "name": "Kavinidhi R P", "role": "Member", "spirit": "The Beacon", "image": "/members/Kavinidhi R P - Member_Event_Planning - KAVINIDHI R P AI&DS.png" },
+            { "name": "Gururaaje M", "role": "Member", "spirit": "The Zenith", "image": "/members/Gururaje_ Sub lead_Event planning Wing - GURURAJE M CE.jpg" }
         ]
     },
     {
-        id: 'events',
-        name: 'CORE OPERATIONS',
-        members: [
-            { name: "Sanjay", role: "Event Head", spirit: "The General", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sanjay" },
-            { name: "Meera", role: "Logistics Head", spirit: "The Navigator", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Meera" }
+        "id": "web",
+        "name": "WEB ARCHITECTS",
+        "members": [
+            { "name": "Balakrishnan.R", "role": "Lead", "spirit": "The Oracle", "image": "/members/Screenshot 2026-03-01 194153 - BALAKRISHNAN R AI&DS.png" },
+            { "name": "B jashwanth shankar", "role": "Member", "spirit": "The Apex", "image": "/members/jashwanth-member_web - B JASHWANTH SHANKAR CSE.jpeg" }
+        ]
+    },
+    {
+        "id": "art",
+        "name": "ART & DECORATION",
+        "members": [
+            { "name": "Brindha AG", "role": "Member", "spirit": "The Sage", "image": "/members/20240816_141115_11zon - BRINDHA A G Mech & Auto Engg.jpg" },
+            { "name": "Tharun Kumar S", "role": "Member", "spirit": "The Warden", "image": "/members/6809 - THARUN KUMAR S Biotech.png" },
+            { "name": "VASUNDRA S", "role": "Member", "spirit": "The Keeper", "image": "/members/IMG_20260301_192515 - VASUNDRA S AI&DS.jpg" },
+            { "name": "VidhyaaVardhani Ramesh", "role": "Member", "spirit": "The Shaper", "image": "/members/IMG-20260301-WA0051 - VIDHYAA VARDHANI RAMESH AI&DS.jpg" },
+            { "name": "M S JOSHIKA", "role": "Member", "spirit": "The Weaver", "image": "/members/Joshika-member_art_and_decoration - M S JOSHIKA CSE.jpg" },
+            { "name": "Nithya Shiva Thirumalaivarathan", "role": "Member", "spirit": "The Pilot", "image": "/members/20260301_201913 - NITHYA SHIVA THIRUMALAIVARATHAN CSE.jpg" },
+            { "name": "Visvajith S A", "role": "Member", "spirit": "The Voyager", "image": "/members/20251219_000434 - VISVAJITH S A ECE.jpg" },
+            { "name": "Harishmani E", "role": "Member", "spirit": "The Scout", "image": "/members/harishmani-2127250501069_art&decor - HARISH MANI E CSE.jpeg" },
+            { "name": "Priyadharshini", "role": "Member", "spirit": "The Ranger", "image": "/members/IMG-20260214-WA0072 - PRIYADHARSHINI R AI&DS.jpg" },
+            { "name": "Harshitha R", "role": "Member", "spirit": "The Champion", "image": "/members/Snapchat-1276341197_Original - HARSHITHA R ECE.jpeg" },
+            { "name": "A Mahathi Kavya", "role": "Member", "spirit": "The Titan", "image": "/members/IMG_8029 - A MAHATHI KAVYA ECE.jpeg" }
+        ]
+    },
+    {
+        "id": "sponsorship",
+        "name": "BUSINESS PARTNERSHIPS",
+        "members": [
+            { "name": "KS Bharath", "role": "Lead", "spirit": "The Knight", "image": "/members/KS Bharath - Sponsorship Lead - 007 BHARATH KS MN.jpg" },
+            { "name": "Akshara Srivatsan", "role": "Member", "spirit": "The Colossus", "image": "/members/0173b395-cfc5-4e47-ad25-9784265dc42f - AKSHARA SRIVATSAN CSE.jpeg" },
+            { "name": "Anton Jacob", "role": "Member", "spirit": "The Baron", "image": "/members/IMG_7578 - 010 ANTON JACOB W ME.JPG" },
+            { "name": "Arpitha Paraneetharan", "role": "Member", "spirit": "The Rogue", "image": "/members/Arpitha- Sponsorship wing - ARPITHA PARANEETHARAN CSE.jpg" },
+            { "name": "Buvanesh Raaj B Y", "role": "Member", "spirit": "The Hunter", "image": "/members/WhatsApp Image 2026-03-01 at 9.30.55 PM - 013 BUVANESH RAAJ B Y ME.jpeg" },
+            { "name": "Shaik aadhil", "role": "Member", "spirit": "The Seeker", "image": "/members/cf3184e0-3387-4851-b43d-921c8285cf23 - SHAIK AADHIL S AI&DS.jpeg" },
+            { "name": "Athmaja Gugan", "role": "Member", "spirit": "The Nomad", "image": "/members/Athmaja- Member_Sponsorship - ATHMAJA G ECE.jpg" },
+            { "name": "Harshitha R", "role": "Member", "spirit": "The Wanderer", "image": "/members/Snapchat-1276341197_Original - HARSHITHA R ECE.jpeg" },
+            { "name": "S. Ananthika", "role": "Member", "spirit": "The Spirit", "image": "/members/1772435076377 - S ANANTHIKA AI&DS.webp" },
+            { "name": "Yaathra P", "role": "Member", "spirit": "The Soul", "image": "/members/IMG-20251025-WA0051~2 - YAATHRA P CSE.jpg" },
+            { "name": "A Mahathi Kavya", "role": "Member", "spirit": "The Heart", "image": "/members/IMG_8029 - A MAHATHI KAVYA ECE.jpeg" },
+            { "name": "V Lingesh", "role": "Member", "spirit": "The Brain", "image": "/members/V.Lingesh-Member_sponsorship - V LINGESH CHEM.jpg" },
+            { "name": "Sri Varsha S", "role": "Member", "spirit": "The Hand", "image": "/members/sri_varsha-member-sponsorship - SRI VARSHA S CSE.jpeg" }
+        ]
+    },
+    {
+        "id": "operations",
+        "name": "CORE OPERATIONS",
+        "members": [
+            { "name": "Rushil", "role": "Member", "spirit": "The Eye", "image": "/members/Rushil-Member_Operations - RUSHIL P BIO.jpg" },
+            { "name": "Amirthavarshini J", "role": "Member", "spirit": "The Voice", "image": "/members/Amirthavarshini-member_operations - AMIRTHAVARSHINI J CSE.png" },
+            { "name": "KAVIYA M", "role": "Member", "spirit": "The Echo", "image": "/members/IMG_20260212_162509 - KAVIYA M CSE.jpg" },
+            { "name": "Anton jacob", "role": "Member", "spirit": "The Shadow", "image": "/members/IMG_7578 - 010 ANTON JACOB W ME.JPG" },
+            { "name": "Arun D", "role": "Member", "spirit": "The Light", "image": "/members/Arun D - operation_wing_member - ARUN D ECE.jpeg" },
+            { "name": "Meenatshi P", "role": "Member", "spirit": "The Flame", "image": "/members/Meenatshi_P-member_Operations - MEENATSHI P CSE.jpg" },
+            { "name": "U S SANJEEVAN", "role": "Member", "spirit": "The Frost", "image": "/members/U S Sanjeevan-Member-Operations_Wing - U S SANJEEVAN EEE.png" },
+            { "name": "Abdul Rahman N", "role": "Member", "spirit": "The Storm", "image": "/members/Abdul Rahman N-Member_Operations - ABDUL RAHMAN N AE.png" }
+        ]
+    },
+    {
+        "id": "celebrity",
+        "name": "CELEBRITY RELATIONS",
+        "members": [
+            { "name": "Nimal.S", "role": "Member", "spirit": "The Tide", "image": "/members/IMG_20260213-WA0028(1) - NIMAL S EEE.jpg" }
         ]
     }
 ];
@@ -66,42 +137,55 @@ const Team = () => {
     const activeGroup = teamData.find(t => t.id === activeTab) || teamData[0];
 
     return (
-        <section className="team-page-v3" style={{ paddingTop: '150px', background: '#050505', minHeight: '100vh', color: 'white' }}>
-            <div className="container">
-                <div className="team-header" style={{ marginBottom: '5rem' }}>
+        <section className="team-page-v3" style={{ 
+            paddingTop: 'clamp(100px, 15vh, 150px)', 
+            background: '#050505', 
+            minHeight: '100vh', 
+            color: 'white',
+            overflowX: 'hidden'
+        }}>
+            <div className="container" style={{ width: '90%', maxWidth: '1400px', margin: '0 auto' }}>
+                <div className="team-header" style={{ marginBottom: 'clamp(3rem, 10vh, 5rem)', textAlign: 'center' }}>
                     <motion.span
                         initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        style={{ color: '#ff4d4d', letterSpacing: '8px', fontWeight: 900, display: 'block', marginBottom: '1rem', fontSize: '0.8rem' }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        style={{ color: '#ff4d4d', letterSpacing: '8px', fontWeight: 900, display: 'block', marginBottom: '1rem', fontSize: 'clamp(0.7rem, 2vw, 0.8rem)' }}
                     >
                         THE ARCHITECTS
                     </motion.span>
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.1 }}
-                        style={{ fontSize: 'clamp(2.5rem, 8vw, 5rem)', fontWeight: 950, lineHeight: 1.1, textTransform: 'uppercase' }}
+                        style={{ fontSize: 'clamp(2.2rem, 8vw, 5rem)', fontWeight: 950, lineHeight: 1.1, textTransform: 'uppercase' }}
                     >
                         MEET THE <span style={{ color: '#ff4d4d' }}>FORCE</span> BEHIND HIGHWAYS
                     </motion.h1>
                 </div>
 
-                <div className="team-tabs" style={{ display: 'flex', gap: '1rem', marginBottom: '5rem', flexWrap: 'wrap' }}>
+                <div className="team-tabs" style={{ 
+                    display: 'flex', 
+                    gap: '0.8rem', 
+                    marginBottom: 'clamp(3rem, 8vh, 5rem)', 
+                    flexWrap: 'wrap',
+                    justifyContent: 'center'
+                }}>
                     {teamData.map(group => (
                         <button
                             key={group.id}
                             onClick={() => setActiveTab(group.id)}
                             style={{
-                                background: activeTab === group.id ? 'white' : 'transparent',
+                                background: activeTab === group.id ? 'white' : 'rgba(255,255,255,0.03)',
                                 color: activeTab === group.id ? 'black' : 'rgba(255,255,255,0.6)',
-                                border: '1px solid rgba(255,255,255,0.1)',
-                                padding: '1rem 2rem',
+                                border: '1px solid rgba(255,255,255,0.08)',
+                                padding: 'clamp(0.8rem, 2vw, 1rem) clamp(1.2rem, 3vw, 2rem)',
                                 borderRadius: '15px',
                                 fontWeight: 900,
                                 cursor: 'pointer',
-                                transition: 'all 0.3s ease',
-                                fontSize: '0.8rem',
-                                letterSpacing: '1px'
+                                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                                fontSize: 'clamp(0.7rem, 1.5vw, 0.8rem)',
+                                letterSpacing: '1px',
+                                whiteSpace: 'nowrap'
                             }}
                         >
                             {group.name}
@@ -112,46 +196,55 @@ const Team = () => {
                 <AnimatePresence mode="wait">
                     <motion.div
                         key={activeTab}
-                        initial={{ opacity: 0, x: 20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: -20 }}
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -20 }}
                         transition={{ duration: 0.4 }}
                         className="members-grid"
-                        style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '3rem' }}
                     >
                         {activeGroup.members.map((member, idx) => (
                             <motion.div
-                                key={member.name}
-                                initial={{ opacity: 0, scale: 0.9 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ delay: idx * 0.1 }}
+                                key={`${activeTab}-${member.name}-${idx}`}
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: idx * 0.05 }}
                                 viewport={{ once: true }}
                                 className="member-card-new"
                                 style={{
-                                    background: 'rgba(255,255,255,0.03)',
-                                    borderRadius: '30px',
-                                    padding: '2.5rem',
+                                    background: 'linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%)',
+                                    borderRadius: 'clamp(20px, 5vw, 40px)',
+                                    padding: 'clamp(1.5rem, 5vw, 3rem)',
                                     border: '1px solid rgba(255,255,255,0.05)',
                                     textAlign: 'center',
-                                    transition: 'all 0.4s ease'
+                                    position: 'relative',
+                                    overflow: 'hidden'
                                 }}
                             >
                                 <div className="member-image-wrap" style={{
-                                    width: '180px',
-                                    height: '180px',
+                                    width: 'clamp(140px, 40vw, 180px)',
+                                    height: 'clamp(140px, 40vw, 180px)',
                                     margin: '0 auto 2rem',
                                     borderRadius: '50%',
                                     overflow: 'hidden',
-                                    border: '4px solid rgba(255, 77, 77, 0.2)'
+                                    border: '4px solid rgba(255, 77, 77, 0.15)',
+                                    position: 'relative',
+                                    zIndex: 2,
+                                    boxShadow: '0 20px 40px rgba(0,0,0,0.3)',
+                                    background: 'rgba(255,255,255,0.02)'
                                 }}>
-                                    <img src={member.image} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                    <img 
+                                        src={member.image} 
+                                        alt={member.name} 
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 15%' }}
+                                        onError={(e) => {
+                                            (e.target as HTMLImageElement).src = `https://api.dicebear.com/7.x/avataaars/svg?seed=${member.name}`;
+                                        }}
+                                    />
                                 </div>
-                                <span style={{ color: '#ff4d4d', fontSize: '0.7rem', fontWeight: 900, letterSpacing: '3px', textTransform: 'uppercase' }}>{member.spirit}</span>
-                                <h3 style={{ fontSize: '1.8rem', fontWeight: 900, margin: '10px 0' }}>{member.name}</h3>
-                                <p style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.9rem', fontWeight: 600 }}>{member.role}</p>
-                                <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', marginTop: '2rem' }}>
-                                    {member.socials?.instagram && <a href={member.socials.instagram} style={{ color: 'rgba(255,255,255,0.3)', transition: '0.3s' }}><i className="fab fa-instagram"></i></a>}
-                                    {member.socials?.linkedin && <a href={member.socials.linkedin} style={{ color: 'rgba(255,255,255,0.3)', transition: '0.3s' }}><i className="fab fa-linkedin-in"></i></a>}
+                                <div style={{ position: 'relative', zIndex: 2 }}>
+                                    <span style={{ color: '#ff4d4d', fontSize: 'clamp(0.6rem, 2vw, 0.7rem)', fontWeight: 900, letterSpacing: '3px', textTransform: 'uppercase' }}>{member.spirit}</span>
+                                    <h3 style={{ fontSize: 'clamp(1.2rem, 4vw, 1.8rem)', fontWeight: 900, margin: '12px 0', letterSpacing: '-0.5px' }}>{member.name}</h3>
+                                    <p style={{ color: 'rgba(255,255,255,0.4)', fontSize: 'clamp(0.8rem, 2vw, 0.9rem)', fontWeight: 600 }}>{member.role}</p>
                                 </div>
                             </motion.div>
                         ))}
@@ -159,15 +252,72 @@ const Team = () => {
                 </AnimatePresence>
             </div>
             <style>{`
-                .member-card-new:hover {
-                    background: rgba(255,255,255,0.05) !important;
-                    transform: translateY(-10px);
-                    border-color: rgba(255, 77, 77, 0.3) !important;
-                    box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+                .members-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(clamp(250px, 100%, 350px), 1fr));
+                    gap: clamp(1.5rem, 4vw, 3rem);
                 }
+                
+                .members-grid > div {
+                    width: 100%;
+                }
+
+                .member-card-new {
+                    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+                }
+
+                .member-card-new::before {
+                    content: '';
+                    position: absolute;
+                    top: 0; left: 0; right: 0; bottom: 0;
+                    background: radial-gradient(circle at top right, rgba(255,77,77,0.05), transparent);
+                    opacity: 0;
+                    transition: opacity 0.5s ease;
+                }
+
+                .member-card-new:hover {
+                    transform: translateY(-15px) scale(1.02);
+                    border-color: rgba(255, 77, 77, 0.3);
+                    background: linear-gradient(145deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%);
+                    box-shadow: 0 40px 80px rgba(0,0,0,0.6);
+                }
+
+                .member-card-new:hover::before {
+                    opacity: 1;
+                }
+
                 .member-card-new:hover .member-image-wrap {
-                    border-color: #ff4d4d !important;
-                    transform: scale(1.05);
+                    border-color: #ff4d4d;
+                    transform: scale(1.05) rotate(5deg);
+                }
+
+                .team-tabs button:hover {
+                    border-color: rgba(255,255,255,0.3);
+                    background: rgba(255,255,255,0.05);
+                }
+
+                @media (max-width: 600px) {
+                    .members-grid {
+                        grid-template-columns: 1fr !important;
+                        padding: 0 10px;
+                        gap: 1.5rem !important;
+                    }
+                    .team-tabs {
+                        gap: 0.5rem !important;
+                        padding: 0 10px;
+                    }
+                    .team-tabs button {
+                        padding: 0.7rem 1rem !important;
+                        flex: 1 1 auto;
+                        min-width: calc(50% - 0.5rem);
+                        font-size: 0.65rem !important;
+                    }
+                    .member-card-new {
+                        padding: 1.5rem !important;
+                    }
+                    .member-image-wrap {
+                        margin-bottom: 1.5rem !important;
+                    }
                 }
             `}</style>
         </section>
